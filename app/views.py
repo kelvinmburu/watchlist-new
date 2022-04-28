@@ -3,6 +3,7 @@ from app import app
 from .request import get_movies,get_movie,search_movie
 from .models import review
 from .forms import ReviewForm
+
 Review = review.Review
 
 # Views
@@ -62,8 +63,10 @@ def new_review(id):
     if form.validate_on_submit():
         title = form.title.data
         review = form.review.data
+
         new_review = Review(movie.id,title,movie.poster,review)
         new_review.save_review()
+        
         return redirect(url_for('movie',id = movie.id ))
 
     title = f'{movie.title} review'
