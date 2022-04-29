@@ -4,8 +4,6 @@ from ..request import get_movies,get_movie,search_movie
 from .forms import ReviewForm
 from ..models import review
 
-Review = review.Review
-
 # Views
 
 
