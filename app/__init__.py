@@ -25,6 +25,6 @@ def create_app(config_name):
 
     return app
 
-from app.main import views
-from app.main import error
+# from app.main import views
+# from app.main import error
 
