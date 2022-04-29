@@ -1,8 +1,8 @@
 from flask import render_template,request,redirect,url_for
 from app import app
-from .request import get_movies,get_movie,search_movie
+from ..request import get_movies,get_movie,search_movie
 from .forms import ReviewForm
-from .models import review
+from ..models import review
 
 Review = review.Review
 
