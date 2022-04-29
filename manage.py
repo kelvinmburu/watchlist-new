@@ -8,4 +8,4 @@ manager = Manager(app)
 manager.add_command('server',Server)
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=5003, debug=True)
+    manager.run(host='localhost', port=5003, debug=True)
