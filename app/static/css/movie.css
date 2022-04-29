@@ -4,10 +4,12 @@
     padding-top: 30%;
     background-size: cover;
 }
+
 .movie-details
 {
     margin-top: 20%;
 }
+
 .movie-details h3
 {
     text-align: center;
@@ -15,19 +17,23 @@
     font-family: sans-serif;
     font-weight: bolder;
 }
+
 p
 {
     font-size: 23px;
 }
+
 .overview
 {
     text-align: right;
 }
+
 .ratings
 {
     text-align: right;
     color: green;
 }
+
 .review-card h2
 {
     color: green;
